@@ -1,0 +1,22 @@
+{
+  "name": "markarian",
+  "version": "0.1.0",
+  "description": "Markdown syntax parser",
+  "main": "src/index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leozdgao/markarian.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "leozdgao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leozdgao/markarian/issues"
+  },
+  "homepage": "https://github.com/leozdgao/markarian"
+}
