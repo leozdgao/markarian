@@ -1,4 +1,4 @@
+// collect all subparsers.
 module.exports = {
-  codeblock: require('./codeblock'),
-  stripblanklines: require('./stripblanklines')
+  codeblock: require('./codeblock')
 }

@@ -8,7 +8,7 @@ var input =
     "```" + "\n";
 
 var output =
-    "<pre><code>" +
+    "<pre><code class=\"javascript\">" +
     "var elem = document.getElementById('key');" + "\n" +
     "console.log(elem.value);" +
     "</code></pre>" + "\n";

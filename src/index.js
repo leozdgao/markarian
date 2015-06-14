@@ -24,12 +24,12 @@ var Markarian = module.exports = function(opts) {
 Markarian.prototype.parse = function(input) {
   // check input, should be a string
   if(!util.isString(input)) throw 'The input should be a string.';
-  
+
   // integrate the new line mark between platforms
   input = input.replace(/\r\n/g, '\n');  // windows
   input = input.replace(/\r/g, '\n');  // OSX
   // strip blank lines
-  input = parser.stripblanklines(input);
+  input = util.stripblanklines(input);
   // replace the start '\n' and the end '\n'
 
   return input;

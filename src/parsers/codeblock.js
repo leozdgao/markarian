@@ -40,7 +40,7 @@ module.exports = function(input) {
     codeblock = codeblock.replace(/^\n+/g, ''); // trim leading new lines
     codeblock = codeblock.replace(/\n+$/g, ''); // trim tailing new lines
 
-    return '<pre><code' + (lang ? ('class="' + lang + '"') : '') + '>' + codeblock + '</code></pre>';
+    return '<pre><code' + (lang ? (' class="' + lang + '"') : '') + '>' + codeblock + '</code></pre>';
   });
 
   return input;
