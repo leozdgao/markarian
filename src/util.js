@@ -11,7 +11,7 @@ exports.escapeHTML = function(input) {
 
 exports.repeat = function(character, num) {
   var ret = '';
-  for(var i = 0; i < +num; i++) ret += character;
+  while(+num --) ret += character;
   return ret;
 };
 

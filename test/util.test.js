@@ -1,8 +1,8 @@
 var util = require('../src/util');
 var expect = require('chai').expect;
 
-describe('Test util, stripping blank lines', function() {
-  it('should strip the blank lines', function() {
+describe('Test util', function() {
+  it('strip the blank lines', function() {
     var input =
         " \t\t " + "\n" +
         " \taa" + "\n" +
@@ -16,10 +16,7 @@ describe('Test util, stripping blank lines', function() {
     var ret = util.stripblanklines(input);
     expect(ret).to.equal(output);
   });
-});
-
-describe('Test util, detabbing the input', function() {
-  it('should detab the string', function() {
+  it('detab the input', function() {
     var input = 'a\tbb\tccc\td';
     var output = 'a   bb  ccc d';
 
